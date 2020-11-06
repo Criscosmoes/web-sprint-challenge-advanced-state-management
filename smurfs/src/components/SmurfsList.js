@@ -13,6 +13,10 @@ const StyledSmurfsList = styled.div`
 }
 
 
+.smurfs {
+    border: 1px solid black; 
+}
+
 `
 
 const SmurfsList = ({ smurfs, fetchSmurfs }) => {
